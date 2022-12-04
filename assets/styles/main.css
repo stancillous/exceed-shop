@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+:root{
+    --webColor:#325CD9;
+    --bgColor:#eaebed;
+    --buttonColor:#325CD9;
+    --maxWidth:1200px;
+    --navColor:#fff9f9;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: var(--bgColor);
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+input{
+    border: none;
+    background-color:black;
+    border-bottom: 1px solid whitesmoke;
+    padding: .8rem .3rem;
+    padding-left: 1rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 2rem;
+                        
+
+}
