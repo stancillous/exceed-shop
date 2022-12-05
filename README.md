@@ -2,6 +2,8 @@
 To-Dos:
 1. Add transition between pages
 2. Set transition when viewing specific item ( when overview btn is clicked)
+3. check last product 
+4. Save the images online (pexels)
 
 ## Setup
 
