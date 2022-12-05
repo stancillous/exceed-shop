@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+To-Dos:
+1. Add transition between pages
+2. Set transition when viewing specific item ( when overview btn is clicked)
 
 ## Setup
 
