@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li> <NuxtLink class="nav-router-links" to="policy/privacy-policy">privacy policy</NuxtLink> </li>
+                        <li> <NuxtLink class="nav-router-links" to="/policy/privacy-policy">privacy policy</NuxtLink> </li>
  
                         
                     </ul>
