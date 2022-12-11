@@ -10,8 +10,8 @@
       "Matching outfits in the same concept available in our adult range.",
       "Relaxed cut",
       ],
-    
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/453512/item/goods_43_453512.jpg?width=750",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_43_453512.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/453512/item/goods_43_453512.jpg?width=750",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -28,7 +28,8 @@
       "Roomy fit.",
       "Durable water-repellent coating for light rain",
       ],
-    "image": "https://im.uniqlo.com/global-cms/spa/resd5047c6a8ed05de9c29f93266db5ff1efr.jpg",
+      "image":"https://github.com/stancillous/e-images/blob/main/resd5047c6a8ed05de9c29f93266db5ff1efr.jpg?raw=true",
+    // "image": "https://im.uniqlo.com/global-cms/spa/resd5047c6a8ed05de9c29f93266db5ff1efr.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -36,17 +37,17 @@
   },
   {
     "id": 3,
-    "title": "Ultra Light 2-Way Stretch Pants",
+    "title": "Fleece Long-Sleeve Full-Zip Jacket",
     "price": 35,
-    "description": "Incredibly lightweight, stretchy, and quick-drying. Advanced stretch for a more comfortable fit.",
+    "description": "Newly updated with a slightly roomier cut and improved details. Warm and comfortable fleece.",
     "category": "men",
-    "overview":["Wrinkle-resistant for easy care.",
-      "Stretch waist for stress-free movement.",
-      "The slim fit is perfect for any occasion.",
-      "Lightweight and breathable mesh pockets for more comfort in sweat-prone areas.",
-      "High-quality fabric.",
+    "overview":["Lightweight yet warm and comfy sponge fabric.",
+      "Special triple-needle stitching on seams reduces skin contact.",
+      "Interlining helps the collar keep its shape.",
+      " A versatile wardrobe essential.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/444596/item/usgoods_32_444596.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_63_453512.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/444596/item/usgoods_32_444596.jpg?width=320",
     "rating": {
       "rate": 4.7,
       "count": 500
@@ -64,7 +65,8 @@
       "Stretch for outstanding comfort.",
       "Soft and smooth.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422370/item/goods_59_422370.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_59_422370.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422370/item/goods_59_422370.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -81,7 +83,8 @@
       "Collarless design allows you to enjoy a variety of styling options",
       "Makes a great cardigan-style outer layer",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/449855/item/goods_09_449855.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_09_449855.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/449855/item/goods_09_449855.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -101,7 +104,8 @@
      ' With convenient side pockets',
       'Easy to wash',
       'A lightweight and convenient outer layer'],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/449854/item/goods_57_449854.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_57_449854.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/449854/item/goods_57_449854.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -117,7 +121,8 @@
       "Relaxed fit.",
       "Outside waist pockets and inner pockets",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/409309/item/goods_09_409309.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_09_409309.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/409309/item/goods_09_409309.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -125,15 +130,16 @@
   },
   {
     "id": 8,
-    "title": "Comfort Jacket",
+    "title": "Printed Open Collar Short-Sleeve Shirt",
     "price": 45,
-    "description": "Comfortable jacket in soft jersey fabric with improved sleeve lining.",
+    "description": "Heather Brown's art featuring Hawaiian nature is now part of the UT collection",
     "category": "men",
     "overview":["Relaxed sizing that is easy to match with casual outfits.",
       "The body, collar, and sleeve width and other details were finely adjusted to balance with the updated length.",
       "Warm fabric",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/452734/item/goods_07_452734.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/usgoods_69_436491.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/452734/item/goods_07_452734.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -149,7 +155,8 @@
       "Versatile innerwear with a 100% cotton outer for styling as a T-shirt.",
       "An easy-to-wear one-point design",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422992/item/goods_51_422992.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_51_422992.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422992/item/goods_51_422992.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -157,15 +164,16 @@
   },
   {
     "id":10 ,
-    "title": "HEATTECH Scarf (Patterned)",
+    "title": "3D Knit Cotton Wide 3/4 Sleeve Sweater",
     "price": 12,
-    "description": "Updated fabric. Wrap up in warm, fluffy comfort.",
+    "description": "A 100% cotton sweater that is gentle on the skin. Textured knitting showcased by a stylish silhouette.",
     "category": "women",
     "overview":[
-      "Warm and fluffy.",
-      "Relaxed fit.",
+      "Comfortable 100% cotton.",
+      "The wide sleeves and cuffs with a varied knit are key design points.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/451588002/item/goods_38_451588002.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_450502_sub14.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/451588002/item/goods_38_451588002.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -182,7 +190,8 @@
       "Woven fabric on the outer collar creates a clean, neat impression",
       "Matching outfits in the same concept available in our adult range.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443326/item/goods_32_443326.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_32_443326.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443326/item/goods_32_443326.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -190,16 +199,17 @@
   },
   {
     "id": 12,
-    "title": "Merino Blend Sleeveless Knitted Dress (MARNI)",
+    "title": "Printed V-Neck Short-Sleeve Flare Midi Dress",
     "price": 35,
-    "description": "High-quality dress made from a Merino wool blend. Playful design made up of 3 different types of stripes.",
+    "description": "An airy V-neck dress in a flattering cut that showcases the smooth fabric.",
     "category": "women",
     "overview":["The visible seams are an expression of knitting technique.",
-      "Straight cut.",
-      "Neckline that is a bit open at the sides.",
-      "Playful striped block design.",
+      "Relaxed fit-and-flared cut",
+      "A classic V-neck buttoned dress.",
+      "Multicolor floral print",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457964/item/goods_38_457964.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_01_455840.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457964/item/goods_38_457964.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -215,7 +225,8 @@
       "Relaxed fit.",
       "Outside waist pockets and inner pockets",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443318/item/goods_46_443318.jpg?width=750",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_46_443318.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443318/item/goods_46_443318.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -223,16 +234,18 @@
   },
   {
     "id": 14,
-    "title": "UV Protection 3D Cut Pocketable Parka",
-    "price": 67,
+    "title": "Pocketable UV Protection Parka",
+    "price": 167,
     "description": "Updated for even greater ease of movement and easy styling.",
     "category": "men",
     "overview":["Perfect for sports and everyday wear.",
+      "Great for casual outdoor styling and camping.",    
       "Pocketable design",
       "Storage pouch attaches to a loop on the inner left side.",
       "UV Protection feature",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/444550/item/usgoods_43_444550.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_455549_sub14.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/444550/item/usgoods_43_444550.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -247,7 +260,8 @@
     "overview":["Windproof technology.",
       "Featuring a slightly shorter cut than the Men's version",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443620/item/goods_69_443620.jpg?width=750",
+      "Image":"https://github.com/stancillous/e-images/blob/main/goods_69_443620.jpg?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443620/item/goods_69_443620.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -262,7 +276,8 @@
     "overview":["Windproof technology.",
       "Featuring a slightly shorter cut than the Men's version",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/440121/item/goods_56_440121.jpg?width=750",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_56_440121.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/440121/item/goods_56_440121.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -280,7 +295,8 @@
       "Relaxed fit and drape that showcases the texture of the fabric",
       "Half-coat length for easy coordination",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/450499/item/goods_36_450499.jpg?width=750",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_36_450499.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/450499/item/goods_36_450499.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -288,17 +304,18 @@
   },
   {
     "id": 18,
-    "title": "Down Oversized Hooded Coat ",
-    "price":138 ,
-    "description": "This voluminous silhouette allows you to enjoy the appeal of down. A high-quality piece offering both warmth and design.",
+    "title": "Warm Padded Quilted Vest",
+    "price":38 ,
+    "description": "Padded for a soft, puffy feel. Diamond quilting pattern adds a style accent.",
     "category": "women",
-    "overview":["Fluffy, voluminous down.",
-      "Use the spindle cord at the hem to adjust the silhouette or keep out the cold.",
-      "The front placket zips up high to cover your neck.",
-      "Oversized coat with a cocoon silhouette.",
-      "Durable water-repellent finish.",
+    "overview":["Pocketable design.",
+      "Durable water-repellent coating for light rain.",
+      "The front placket and collar are piped with grosgrain tape for extra durability and a stylish look.",
+      "The collar fold inward to stay hidden under a V-neck coat.",
+      "Anti-static lining.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/458847/item/goods_53_458847.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_32_450451.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/458847/item/goods_53_458847.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -306,17 +323,17 @@
   },
   {
     "id": 19,
-    "title": "Down Oversized Hooded Coat",
-    "price": 138,
-    "description": "This voluminous silhouette allows you to enjoy the appeal of down. A high quality piece offering both warmth and design.",
+    "title": "Extra Fine Merino Ribbed Turtleneck Sweater",
+    "price": 28,
+    "description": "The premium texture of 100% Merino wool. Sleek ribbed knit.",
     "category": "women",
-    "overview":["Fluffy, voluminous down.",
-      "Use the spindle cord at the hem to adjust the silhouette or keep out the cold.",
-      "The front placket zips up high to cover your neck.",
-      "Oversized coat with a cocoon silhouette.",
-      "Durable water-repellent finish.",
+    "overview":["special processing to avoid pilling and make it machine washable.",
+      "Smooth feel.",
+      "Machine washable.",
+      "Easy to mix and match.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457941/item/goods_29_457941.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_16_439154.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457941/item/goods_29_457941.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -333,7 +350,8 @@
       "Non-quilted design on the outside for a sleek look.",
       "Hybrid construction combines the benefits of down and functional padding to achieve both lightness and warmth.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/439711/item/goods_69_439711.jpg?width=750",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_69_439711.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/439711/item/goods_69_439711.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -341,7 +359,7 @@
   },
   {
     "id":22 ,
-    "title": "Ultra Light Down Parka (2021 Edition)",
+    "title": "Ultra Light Down Parka",
     "price": 49,
     "description": "Thin, light and warm Ultra Light Down. Parka style that protects your head and neck from the cold.",
     "category": "men",
@@ -349,7 +367,7 @@
       "Durable water-repellent coating.",
       "Storage pouch matches the pocket fabric.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443320/item/goods_02_443320.jpg?width=320",
+      "image":"https://raw.githubusercontent.com/stancillous/e-images/main/goods_02_443320.png",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -384,7 +402,8 @@
       "Looks great on its own or as an outer layer.",
       "Perfectly thick 100% cotton flannel.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/441774/item/goods_38_441774.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_38_441774.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/441774/item/goods_38_441774.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -402,7 +421,8 @@
       "Made from ultra-long cotton fibers",
       "Roomy in the shoulders and body, with a sleeker fit in the arms and chest.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448347/item/usgoods_64_448347.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/usgoods_64_448347.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448347/item/usgoods_64_448347.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -411,7 +431,7 @@
   {
     "id":26 ,
     "title": "Seamless Down Short Coat",
-    "price":83,
+    "price":33,
     "description": "Hidden stitching for added warmth and a sleek look. Now with a more three-dimensional hood design.",
     "category": "women",
     "overview":["Fleece lined pockets.",
@@ -420,7 +440,8 @@
       "Durable water-repellent coating.",
       "Windproof and lightweight.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/439714/item/goods_71_439714.jpg?width=320",
+      "Image":"https://github.com/stancillous/e-images/blob/main/goods_71_439714.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/439714/item/goods_71_439714.jpg?width=320",
     "rating": {
       "rate": 4.1,
       "count": 430
@@ -438,7 +459,8 @@
       "Relaxed fit with dropped shoulders.",
       "Cropped length pairs well with high-waisted bottoms.",
       ],
-    "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/450531/item/goods_67_450531.jpg?width=320",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_67_450531.png?raw=true",
+    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/450531/item/goods_67_450531.jpg?width=320",
     "rating": {
       "rate": 4.1,
       "count": 430

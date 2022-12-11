@@ -15,7 +15,7 @@
                     </div>
                     <NuxtLink :to="'/'+item.id">
                         <div class="image-container">
-                            <img :src="item.image" alt="image of exceed product">
+                            <img :src="item.image" :alt="item.title">
                         </div>
                         <div class="name-container">
                             <p class="product-name">{{item.title}}</p>
@@ -69,7 +69,7 @@ const {data:products} =await useFetch('/api/goods')
         padding: .5rem;
         
         .items-content{
-            margin: 1rem;
+            margin:1.5rem 1rem;
             border: 1px solid gainsboro;
             padding: 1rem;
             height: auto;
@@ -85,7 +85,7 @@ const {data:products} =await useFetch('/api/goods')
                 color: black;
                 text-decoration: none;
                 display: grid;
-                height: 100%;
+                height: 90%;
                 padding: 1rem;
 
                 .image-container{
@@ -106,9 +106,8 @@ const {data:products} =await useFetch('/api/goods')
                     display: grid;
                     place-items: center;             
                     .product-name{
-                        font-size: 1.2rem;
-                        font-weight: 700;
-                        opacity: .8;
+                        font-size: 1.4rem;
+                        font-weight: 500;
                     }
                 }
 
@@ -116,31 +115,29 @@ const {data:products} =await useFetch('/api/goods')
                     .category{
                         text-align: center;
                         text-transform: capitalize;
-                        font-weight: 600;
-                        opacity: .8;
+                        font-weight: 500;
+                        // opacity: .8;
                         font-size: 1.1rem;
                     }
                 }
                 .price-container{
 
                     .product-price{
-                        border:none;
                         text-align: center;
-                        color: rgb(0, 0, 0);
                         width: 100%;
                         border-radius: .2rem;
-                        padding:1.3rem 0;
-                        font-size: 1.3rem;
-                        text-decoration: dotted;
+                        padding: 0 0 1.2rem 0;
+                        font-size: 1.4rem;
                         font-weight: bold;
+                        font-weight: 600;
             
                     }
                 }
             }
 
-            &:hover img{
-                transform: scale(1.1);
-            }
+            // &:hover{
+            //     opacity: .9;
+            // }
         }
 
 

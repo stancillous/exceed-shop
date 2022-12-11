@@ -1,5 +1,6 @@
 <template>
     <div class="outer-root-div">
+        
       
         <section class="cart-section-wrapper">
             <div class="cart-section">
@@ -11,7 +12,7 @@
 
                         </div>
                         <div @click="arrowClicked" class="ov-container">
-                            <h2>Overview</h2>
+                            <h2>Product overview</h2>
                             <div class="overview-arrow"></div>
                         </div>
                         <div class="product-overview">
@@ -27,7 +28,7 @@
                         <h4 class="product-description">{{data[0].description}}</h4>
 
                         <button @click="totalItems>1?totalItems--:1" class="subtract">-</button>
-                        <input :value="totalItems" class="total-products" min="1" type="number">
+                        <input @click="med()" :value="totalItems" class="total-products" min="1" type="number">
                         <button @click="totalItems++" class="add">+</button> <br>
                         
                         <!-- ADD ITEM TO CART -->
@@ -37,15 +38,20 @@
             </div>
         </section>
 
+
     </div>
 </template>
 
 <script setup>
-import {onMounted} from 'vue'
+import {onMounted} from 'vue';
 
-// onMounted(()=>{
-//     localStorage.removeItem('data')
-// })
+//variable to hold the total items user wants to buy
+let totalItems = ref(1);
+
+
+onMounted(()=>{
+    removeCartItem()
+})
 
 //function to show additional description of products
 function arrowClicked(){
@@ -57,26 +63,29 @@ function arrowClicked(){
 
 //access the client side
 if (process.client){
-   var basket = JSON.parse(localStorage.getItem("data")) || [];
-    var cartItemContainer =document.querySelector('.cart-item');
     // localStorage.removeItem('data')
     // localStorage.clear()
+   var basket = JSON.parse(localStorage.getItem("data")) || [];
+   showCartItems()
+   cartItemsTotal()
+   removeCartItem()
+
 }
 
-//variable to hold the total items user wants to buy
-let totalItems = ref(1)
 
-
-const parameter = useRoute()
-let productID = parameter.params.product
+const parameter = useRoute();
+let productID = parameter.params.product;
 
 
 const {data} = await useFetch(`/api/products/${productID}`)
 
-let productName =await data.value[0].title
-useHead({
+let productName = data.value[0].title
+
+useHead({ 
     title:productName
 })
+
+
 function updateUserCart(event){
     const clickedItem =event.target.parentNode
 
@@ -93,7 +102,7 @@ function updateUserCart(event){
 
    
      let addItem =`
-     <div style="border-bottom:1px solid gainsboro;position:relative;display:flex;justify-content:space-between;padding:1rem 2rem;align-items:flex-end;" class="cart-item-data">
+     <div id="${clickedItemTitle}" style="border-bottom:1px solid gainsboro;position:relative;display:flex;justify-content:space-between;padding:1rem 2rem;align-items:flex-end;" class="cart-item-data">
                 <div class="cart-image-name">
                     <img style="width:6rem;height:6rem" class="cart-image" src="${clickedImage}" alt="cart item image">
                     <p style="padding:0 1rem;font-weight:bold;color:black" class="cart-item-name">${clickedItemTitle}</p>
@@ -109,17 +118,30 @@ function updateUserCart(event){
             </div>
         `
 
-    basket.push({
-        cartItem:addItem
-    })
-    
-   
-    localStorage.setItem("data", JSON.stringify(basket));
-   
-    //function to add the items in the basket to the cart
-    addItemsToCartFunc()
-    
+        //checking to see if the clicked item is in the cart
+        let filterBasket = basket.filter(item=>item.id==clickedItemTitle)
 
+        //adding the item only if it isn't in the cart
+        if(filterBasket.length==0){
+            basket.push({
+                cartItem:addItem,
+                id:clickedItemTitle
+            })
+        }
+    
+    
+    localStorage.setItem("data", JSON.stringify(basket));
+
+    //call this function to updated items in the cart and display them
+    showCartItems()
+    cartItemsTotal()
+
+}
+
+
+//function to show the total cost of cart items
+function cartItemsTotal(){
+    
     let pricesTags = document.querySelectorAll('.price-span')
 
     let ttl  = 0 //total for items in the cart
@@ -130,87 +152,57 @@ function updateUserCart(event){
 
     document.querySelector('.cart-total-amount').textContent ='$'+ttl
 
-
 }
 
-// function addItemToCart(event){
-//     let cartItemContainer =document.querySelector('.cart-item')
-//     const clickedItem =event.target.parentNode
-
-//     const imageContainer = clickedItem.parentNode
-
-//      const clickedImage =imageContainer.querySelector('#aic-image').src
-//      const clickedItemPrice =imageContainer.querySelector('.item-price').textContent
-
-//      const clickedItemTitle = clickedItem.querySelector('.product-title').textContent
-     
-//      const clickedItemTotal = clickedItem.querySelector('.total-products').value
-     
-//      let itemTotalPrice = Number(clickedItemPrice) * Number(clickedItemTotal)
-
-
-//      let addItem =`
-//     <div style="display:flex;justify-content:space-between;padding:1rem 2rem;align-items:flex-end;" class="cart-item-info">
-//         <div class="cart-image-name">
-//             <img style="width:6rem;height:6rem" class="cart-image" src="${clickedImage}" alt="cart item image">
-//             <p  style="padding:0 1rem;font-weight:bold;color:black" class="cart-item-name">${clickedItemTitle}</p>
-
-//         </div>
+function showCartItems(){
+    let cartItemContainer = document.querySelector('.cart-item')
     
-//         <div class="cart-item-price-container">
-//             <p style="font-weight:bold;color:black" class="cart-item-price">${itemTotalPrice}</p>
+    let cartItems = JSON.parse(localStorage.getItem('data'))
+    // console.log('cartItems', cartItems.length)
 
-//         </div>
+    if(cartItems){
+        if(cartItems.length!==0){
+            cartItemContainer.innerHTML = ''
+            return cartItemContainer.innerHTML = cartItems.map((item)=>{
+                return item.cartItem
+            })
+        }
+        else{
+            cartItemContainer.innerHTML = `<h4 style="text-align:center;font-size:1.4rem">Your cart is empty</h4>`
+        }
+    }
 
-//     </div>
-//     `
-//     cartItemContainer.innerHTML+=addItem
+    else{
+        cartItemContainer.innerHTML = `<h4 style="text-align:center;font-size:1.4rem">Your cart is empty</h4>`
+    }
 
-//        let pricesTags = document.querySelectorAll('.cart-item-price')
- 
-//        let ttl  = 0
-//     pricesTags.forEach((element)=>{
-//             let price = Number(element.textContent)
-//             ttl += price
-//         })
-    
-//     document.querySelector('.cart-total-amount').textContent =ttl
+    cartItemsTotal()
+}
 
-
-// }
-
-
-//function to add/remove items from the cart
-function addItemsToCartFunc(){
-  
-
-    cartItemContainer.innerHTML = ''
-    basket.forEach(item=>{
-        cartItemContainer.innerHTML+=item.cartItem //add items to the cart
-    })
-
-
-    //selecting all the buttons to remove items from the cart when clicked
+function removeCartItem(){
+//selecting all the buttons to remove items from the cart when clicked
     let removeCartItemIcon = document.querySelectorAll('.remove-cart-item')
     removeCartItemIcon.forEach(element => {
-        element.addEventListener('click',(event)=>{
-            let d = event.target.parentNode.parentNode
+        element.addEventListener('click',event=>{
+            let clickedItemDiv = event.target.parentNode.parentNode
+            let clickedItemDivID = clickedItemDiv.getAttribute('id')
 
-            d.remove()
-            
+            //removing the item 
+            basket = basket.filter(item=> item.id!==clickedItemDivID)
+            localStorage.setItem("data",JSON.stringify(basket))
+            showCartItems()
+            cartItemsTotal()
+            removeCartItem()
         })
     });
     
-
-
 }
-
-
 
 </script>
 
 
 <style lang="scss" scoped>
+
 
 .cart-section-wrapper{
     max-width: 1000px;
@@ -254,13 +246,12 @@ function addItemsToCartFunc(){
                     display: flex;
                     align-items: center;
                     h2{
-                        opacity: .8;
                         font-size: 1.4rem;
+                        font-weight: 500;
                     }
                     .overview-arrow{
                         width: 0;
                         margin: 0 0.4rem;
-                        
                         height: 0;
                         border-left: 7px solid transparent;
                         border-right: 7px solid transparent;
@@ -273,8 +264,10 @@ function addItemsToCartFunc(){
                 }
             .product-overview{
                 margin:1rem auto;
+
                 ul{
                     display: none;
+
                     li{
                     opacity: .9;
                     font-size: 1.2rem;
@@ -296,7 +289,9 @@ function addItemsToCartFunc(){
                 }
             }
         }
+
         .product-details{
+
             .product-title{
                 font-size: 1.7rem;
                 opacity: .9;
@@ -340,6 +335,10 @@ function addItemsToCartFunc(){
                 font-weight: bold;
                 padding: 1rem 2.5rem;
                 font-size: 1.2rem;
+
+                &:hover{
+                    opacity: .8;
+                }
             }
         }
     }

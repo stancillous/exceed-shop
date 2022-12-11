@@ -82,9 +82,9 @@
                                     
                                     <div class="cart-item">
 
+
                                         <!-- each item in the cart -->
-                                     
-                                     
+
                                     </div>
 
                                     <div class="cart-total-div">
@@ -118,6 +118,64 @@
 import { onMounted } from 'vue';
 
 onMounted(allPageFuncs)
+
+
+
+// function showCartItems(){
+//     let cartdiv = document.querySelector('.cart-item')
+    
+//     // var cartItems = JSON.parse(localStorage.getItem('data'))
+//     let cartItems = JSON.parse(localStorage.getItem('data'))
+    
+ 
+//     if(cartItems.length!==0){
+//         return cartdiv.innerHTML = cartItems.map((item)=>{
+            
+//             return `
+//             <div class="cart-item-data">
+//                 <div class="cart-image-name">
+//                     <img src="" alt="cart item image">
+//                     <p class="cart-item-name">loremip</p>
+
+//                 </div>
+            
+//                 <div class="cart-item-price-container">
+//                     <span class="remove-cart-item">-</span>
+//                     <p class="cart-item-price sum">$<span class="price-span"> 43</span></p>
+
+//                 </div>
+
+//             </div>
+//         `
+//         //     return `
+//         //     <div class="cart-item-data">
+//         //         <div class="cart-image-name">
+//         //             <img src="${clickedImage}" alt="cart item image">
+//         //             <p class="cart-item-name">${clickedItemTitle}</p>
+
+//         //         </div>
+            
+//         //         <div class="cart-item-price-container">
+//         //             <span class="remove-cart-item">-</span>
+//         //             <p class="cart-item-price sum">$<span class="price-span"> ${itemTotalPrice}</span></p>
+
+//         //         </div>
+
+//         //     </div>
+//         // `
+//         })
+        
+
+
+
+
+
+
+//     }
+
+
+// }
+
 
 
 //funtion for when hamburger button is clicked
@@ -159,6 +217,7 @@ function showNavCategoriesContent(){
 function allPageFuncs(){
     menuLinksFunctions()
     showNavCategoriesContent()
+    
 }
 
 
@@ -353,8 +412,6 @@ function allPageFuncs(){
                                 width:26rem;
                                 height:50vh;
                                 overflow-x: hidden;
-
-                              
                             }
 
                             .cart-total-div{//element showing cart total
