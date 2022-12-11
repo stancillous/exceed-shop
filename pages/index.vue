@@ -8,14 +8,19 @@
                     <div class="image-container">
                         <div class="text-container">
                             <div class="t-content">
-                                <h1>Redefining clothing, <br> with a focus on quality </h1>
-                                <p>For over 2 years, we have been making it easy for you to get amazing designer clothes.  </p>
+                                <h1>Redefining clothing, with a focus on quality </h1>
+                                <p>For over 2 years, we have been making it easy <br> for you to get amazing designer clothes.  </p>
                                 
                                 
                                 <div class="hero-btn">
                                     <NuxtLink to="/products" class="browse-categories">
-                                        <button>browse products</button>
+                                        <button class="browse-products-btn">browse products</button>
                                     </NuxtLink>
+                                    
+                                    <NuxtLink to="/account/signup" class="sign-in">
+                                        <button class="sign-in-btn">Sign in to buy</button>
+                                    </NuxtLink>
+
 
                                     <div class="btn-hover"></div>
                                 </div>
@@ -30,7 +35,7 @@
 
             <div class="ts-container">
                 <div class="tiny-img">
-                    <img src="../assets/images/img.png" alt="image of a man shopping for clothes" class="tiny-image">
+                    <img src="../assets/images/img.png" alt="image drawing of a man holding a shoping bag" class="tiny-image">
                 </div>
                 <div class="ts-content">
 
@@ -59,7 +64,7 @@
 
                             <div class="grid-info">
                                 <div class="img-container">
-                                    <img src="../assets/images/image6.jpg" alt="exceed image">
+                                    <img src="../assets/images/image6.jpg" alt="image of sweatshirts on hangers">
                                     <p>We know what you want. Browse through the categories and find what you love. </p>
 
                                 </div>
@@ -71,7 +76,7 @@
 
                             <div id="grid-info-df" class="grid-info">
                                 <div class="img-container">
-                                    <img src="../assets/images/image7.jpg" alt="exceed image">
+                                    <img src="../assets/images/image7.jpg" alt="image of a man smiling while holding shoping bags">
                                     <p>Don't miss out! Massive discounts on the first Monday of every month.</p>
                                     
                                 </div>
@@ -80,7 +85,7 @@
 
                             <div class="grid-info">
                                 <div class="img-container">
-                                    <img src="https://images.pexels.com/photos/7679868/pexels-photo-7679868.jpeg?auto=compress&cs=tinysrgb&w=600" alt="exceed image">
+                                    <img src="https://images.pexels.com/photos/7679868/pexels-photo-7679868.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image of a woman shoping for clothes in a store">
                                     <p>Visit our store and shop with us.</p>
 
                                 </div>
@@ -172,11 +177,18 @@ useHead({
 
                                 button{
                                     all: unset;
-                                    padding: 1.3rem 2.4rem;
+                                    padding: 1rem 2.4rem;
                                     background-color: white;
                                     color: black;
-                                    font-weight: 600;
+                                    font-weight: 500;
+                                    text-transform: capitalize;
                                     
+                                }
+                                .sign-in-btn{
+                                    margin: 0 2rem;
+                                    border: 1px solid white;
+                                    background-color: transparent;
+                                    color: white;
                                 }
                             }
 

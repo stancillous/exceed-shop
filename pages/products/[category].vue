@@ -140,9 +140,6 @@ const {data:products} = await useFetch(`/api/categories/${categoryName}`)
                 }
             }
 
-            &:hover img{
-                transform: scale(1.1);
-            }
         }
 
 
