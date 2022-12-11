@@ -347,7 +347,7 @@ function removeCartItem(){
 
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:650px) {
     .cart-section-wrapper .cart-section .cart-container{
         display: flex;
         flex-direction: column;
