@@ -10,7 +10,7 @@ export default defineNuxtConfig({
                 {"http-equiv":"x-ua-compatible", content:"IE:edge"},
                 {name:"viewport", content:"width:device-width, initial-scale:1.0"},
                 {name:"description", content:"Exceed is the web's one-stop shop for affordable apparel of all kinds"},
-                {name:"theme-color",content:"##eaebed"},
+                {name:"theme-color",content:"#eaebed"},
 
             ],
             noscript:[
