@@ -22,6 +22,9 @@
                         <div class="name-container">
                             <p class="product-name">{{item.title}}</p>
                         </div>
+                        <div class="category-container">
+                            <p class="category">{{item.category}}</p>
+                        </div>
                         <div class="price-container">
                             <p class="product-price">$ {{item.price}}</p>
                         </div>
