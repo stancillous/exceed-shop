@@ -8,7 +8,7 @@ export default defineNuxtConfig({
             meta:[
                 {charset:"utf-8"},
                 {"http-equiv":"x-ua-compatible", content:"IE:edge"},
-                {name:"viewport", content:"width:device-width, initial-scale:1"},
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {name:"description", content:"Exceed is the web's one-stop shop for affordable apparel of all kinds"},
                 {name:"theme-color",content:"#eaebed"},
 
