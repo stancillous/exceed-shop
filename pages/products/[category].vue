@@ -122,6 +122,15 @@ const {data:products} = await useFetch(`/api/categories/${categoryName}`)
                         opacity: .8;
                     }
                 }
+                .category-container{
+                    .category{
+                        text-align: center;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                        // opacity: .8;
+                        font-size: 1.1rem;
+                    }
+                }
 
                 .price-container{
 
