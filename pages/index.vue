@@ -184,8 +184,10 @@ useHead({
                                     text-transform: capitalize;
                                     
                                 }
+                                .browse-products-btn{
+                                    margin:0 2rem 1rem 0;
+                                }
                                 .sign-in-btn{
-                                    margin: 0 2rem;
                                     border: 1px solid white;
                                     background-color: transparent;
                                     color: white;
