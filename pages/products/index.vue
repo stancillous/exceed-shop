@@ -106,8 +106,9 @@ const {data:products} =await useFetch('/api/goods')
                     display: grid;
                     place-items: center;             
                     .product-name{
-                        font-size: 1.4rem;
-                        font-weight: 500;
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                        opacity: .8;
                     }
                 }
 
