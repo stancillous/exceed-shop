@@ -260,7 +260,7 @@
     "overview":["Windproof technology.",
       "Featuring a slightly shorter cut than the Men's version",
       ],
-      "Image":"https://github.com/stancillous/e-images/blob/main/goods_69_443620.jpg?raw=true",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_69_443620.jpg?raw=true",
     // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443620/item/goods_69_443620.jpg?width=750",
     "rating": {
       "rate": 2.1,
@@ -440,7 +440,7 @@
       "Durable water-repellent coating.",
       "Windproof and lightweight.",
       ],
-      "Image":"https://github.com/stancillous/e-images/blob/main/goods_71_439714.png?raw=true",
+      "image":"https://github.com/stancillous/e-images/blob/main/goods_71_439714.png?raw=true",
     // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/439714/item/goods_71_439714.jpg?width=320",
     "rating": {
       "rate": 4.1,
