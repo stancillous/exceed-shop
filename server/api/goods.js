@@ -1,6 +1,6 @@
  export const goods = [
   {
-    "id": 1,
+    "id": "fleece_long_sleeve",
     "title": "Fleece Long-Sleeve",
     "price": 35,
     "description": "Newly updated with a slightly roomier cut and improved details. Warm and comfortable fleece.",
@@ -11,14 +11,13 @@
       "Relaxed cut",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_43_453512.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/453512/item/goods_43_453512.jpg?width=750",
     "rating": {
       "rate": 3.9,
       "count": 120
     }
   },
   {
-    "id": 2,
+    "id": "pocketable_long_coat",
     "title": "Pocketable Long Coat ",
     "price": 42,
     "description": "A pocketable coat for protection on the go. In a roomy cut for easy layering.",
@@ -29,14 +28,13 @@
       "Durable water-repellent coating for light rain",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/resd5047c6a8ed05de9c29f93266db5ff1efr.jpg?raw=true",
-    // "image": "https://im.uniqlo.com/global-cms/spa/resd5047c6a8ed05de9c29f93266db5ff1efr.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
     }
   },
   {
-    "id": 3,
+    "id":"fleece_long_sleeve_jacket",
     "title": "Fleece Long-Sleeve Full-Zip Jacket",
     "price": 35,
     "description": "Newly updated with a slightly roomier cut and improved details. Warm and comfortable fleece.",
@@ -47,7 +45,6 @@
       " A versatile wardrobe essential.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_63_453512.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/444596/item/usgoods_32_444596.jpg?width=320",
     "rating": {
       "rate": 4.7,
       "count": 500
@@ -55,7 +52,7 @@
     }
   },
   {
-    "id": 4,
+    "id": "slim_fit_chino_pants",
     "title": "Slim-Fit Chino Pants",
     "price": 35,
     "description": "Sleek texture and cut. A convenient pair that can dresses up or down.",
@@ -66,14 +63,13 @@
       "Soft and smooth.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_59_422370.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422370/item/goods_59_422370.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 5,
+    "id": "warm_padded_washable_jacket",
     "title": "Warm Padded Washable Quilted Jacket",
     "price":24 ,
     "description": "A convenient jacket that styles like a cardigan or layered under outerwear as a liner.",
@@ -84,14 +80,13 @@
       "Makes a great cardigan-style outer layer",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_09_449855.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/449855/item/goods_09_449855.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 6,
+    "id": "pocketable_nylon_parka",
     "title": "Pocketable Nylon Parka",
     "price":21 ,
     "description": "kids' hood removable with snap buttons",
@@ -105,14 +100,13 @@
       'Easy to wash',
       'A lightweight and convenient outer layer'],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_57_449854.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/449854/item/goods_57_449854.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 7,
+    "id":"stretch_wool_slim_fit_jacket",
     "title": "Stretch Wool Slim-Fit Jacket",
     "price": 45,
     "description": "The refined look of premium wool plus added stretch in a sharp, stylish slim fit.",
@@ -122,14 +116,13 @@
       "Outside waist pockets and inner pockets",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_09_409309.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/409309/item/goods_09_409309.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 8,
+    "id": "printed_open_collar_shirt",
     "title": "Printed Open Collar Short-Sleeve Shirt",
     "price": 45,
     "description": "Heather Brown's art featuring Hawaiian nature is now part of the UT collection",
@@ -139,14 +132,13 @@
       "Warm fabric",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/usgoods_69_436491.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/452734/item/goods_07_452734.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id":9 ,
+    "id":"u_crew_neck_short_sleeve_tshirt",
     "title": "U Crew Neck Short-Sleeve T-Shirt",
     "price": 15,
     "description": "Designed with meticulous attention to detail and a stylish cut.",
@@ -156,14 +148,13 @@
       "An easy-to-wear one-point design",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_51_422992.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/422992/item/goods_51_422992.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id":10 ,
+    "id":"3D_knit_cotton_wide_sleeve_sweater",
     "title": "3D Knit Cotton Wide 3/4 Sleeve Sweater",
     "price": 12,
     "description": "A 100% cotton sweater that is gentle on the skin. Textured knitting showcased by a stylish silhouette.",
@@ -173,14 +164,13 @@
       "The wide sleeves and cuffs with a varied knit are key design points.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_450502_sub14.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/451588002/item/goods_38_451588002.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id":11 ,
+    "id":"fleece_long_sleeve_pullover" ,
     "title": "Fleece Long-Sleeve Pullover",
     "price": 39,
     "description": "A loose-fitting cut great for everyday wear. With precision details designed to keep you warm.",
@@ -191,14 +181,13 @@
       "Matching outfits in the same concept available in our adult range.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_32_443326.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443326/item/goods_32_443326.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 12,
+    "id": "printed_vneck_short_sleeve_flare_mide_dress",
     "title": "Printed V-Neck Short-Sleeve Flare Midi Dress",
     "price": 35,
     "description": "An airy V-neck dress in a flattering cut that showcases the smooth fabric.",
@@ -209,14 +198,13 @@
       "Multicolor floral print",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_01_455840.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457964/item/goods_38_457964.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 13,
+    "id": "ultra_light_down_jacket",
     "title": "Ultra Light Down Jacket",
     "price":56 ,
     "description": "hin, light and warm down jacket. Attention to detail balances design and comfort.",
@@ -226,14 +214,13 @@
       "Outside waist pockets and inner pockets",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_46_443318.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443318/item/goods_46_443318.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 14,
+    "id": "pocketable_UV_protection_parka",
     "title": "Pocketable UV Protection Parka",
     "price": 167,
     "description": "Updated for even greater ease of movement and easy styling.",
@@ -245,14 +232,13 @@
       "UV Protection feature",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_455549_sub14.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/444550/item/usgoods_43_444550.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 15,
+    "id": "windproof_fluffy_yarn_fleece_hoodie",
     "title": "Windproof Fluffy Yarn Fleece Full-Zip Hoodie",
     "price":34 ,
     "description": "Blocks out cold air to keep you warm. A fleece that combines effective heat retention with convenience.",
@@ -261,14 +247,13 @@
       "Featuring a slightly shorter cut than the Men's version",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_69_443620.jpg?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/443620/item/goods_69_443620.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 16,
+    "id":" windproof_fluffy_yarn_fleece_full_zip_hoodie",
     "title": "Windproof Fluffy Yarn Fleece Full-Zip Hoodie",
     "price":34 ,
     "description": "A fluffy fleece hoodie with excellent windproofing. Shorter body length for a sleek style.",
@@ -277,14 +262,13 @@
       "Featuring a slightly shorter cut than the Men's version",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_56_440121.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/440121/item/goods_56_440121.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 17,
+    "id": "wool_blend_short_coat",
     "title": "Wool Blend Short Coat",
     "price": 122,
     "description": "Elegant design with just the right amount of drape for a relaxed look that is easy to style.",
@@ -296,14 +280,13 @@
       "Half-coat length for easy coordination",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_36_450499.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/450499/item/goods_36_450499.jpg?width=750",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 18,
+    "id": "warm_padded_quilted_vest",
     "title": "Warm Padded Quilted Vest",
     "price":38 ,
     "description": "Padded for a soft, puffy feel. Diamond quilting pattern adds a style accent.",
@@ -315,14 +298,13 @@
       "Anti-static lining.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_32_450451.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/458847/item/goods_53_458847.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 19,
+    "id": "extra_fine_merino_ribbed_turtleneck_sweater",
     "title": "Extra Fine Merino Ribbed Turtleneck Sweater",
     "price": 28,
     "description": "The premium texture of 100% Merino wool. Sleek ribbed knit.",
@@ -333,14 +315,13 @@
       "Easy to mix and match.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_16_439154.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457941/item/goods_29_457941.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id": 20,
+    "id":"hybrid_down_short_coat",
     "title": "Hybrid Down Short Coat",
     "price":99 ,
     "description": "High-performance down that combines warmth and ease of movement. Lets you keep warm in style.",
@@ -358,7 +339,7 @@
     }
   },
   {
-    "id":22 ,
+    "id":"ultra_light_down_parka" ,
     "title": "Ultra Light Down Parka",
     "price": 49,
     "description": "Thin, light and warm Ultra Light Down. Parka style that protects your head and neck from the cold.",
@@ -374,7 +355,7 @@
     }
   },
   {
-    "id":23 ,
+    "id":"extra_fine_cotton_broadcloth_shirt" ,
     "title": "Extra Fine Cotton Broadcloth Long-Sleeve Shirt",
     "price": 27,
     "description": "A comfortable shirt in premium 100% cotton. Now in a shorter length.",
@@ -392,7 +373,7 @@
     }
   },
   {
-    "id": 24,
+    "id": "flannel_plaid_long_sleeve_shirt",
     "title": "Flannel Plaid Long-Sleeve Shirt",
     "price": 24,
     "description": "Lightweight flannel fabric. Designed for ease of movement around the shoulders.",
@@ -403,14 +384,13 @@
       "Perfectly thick 100% cotton flannel.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_38_441774.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/441774/item/goods_38_441774.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id":25 ,
+    "id":"oxford_slim_fit_long_sleeve_shirt" ,
     "title": "Oxford Slim-Fit Long-Sleeve Shirt",
     "price":23,
     "description": "Totally updated, from the fabric and cut to the stitching and buttons. A true classic, now even better.",
@@ -422,14 +402,13 @@
       "Roomy in the shoulders and body, with a sleeker fit in the arms and chest.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/usgoods_64_448347.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448347/item/usgoods_64_448347.jpg?width=320",
     "rating": {
       "rate": 2.1,
       "count": 430
     }
   },
   {
-    "id":26 ,
+    "id":"seamless_down_short_coat" ,
     "title": "Seamless Down Short Coat",
     "price":33,
     "description": "Hidden stitching for added warmth and a sleek look. Now with a more three-dimensional hood design.",
@@ -441,14 +420,13 @@
       "Windproof and lightweight.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_71_439714.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/439714/item/goods_71_439714.jpg?width=320",
     "rating": {
       "rate": 4.1,
       "count": 430
     }
   },
   {
-    "id":27 ,
+    "id":"denim_cropped_jacket" ,
     "title": "Denim Cropped Jacket",
     "price":83,
     "description": "A handy throw-on layer in lightweight denim. In a sleek cropped length.",
@@ -460,7 +438,6 @@
       "Cropped length pairs well with high-waisted bottoms.",
       ],
       "image":"https://github.com/stancillous/e-images/blob/main/goods_67_450531.png?raw=true",
-    // "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/450531/item/goods_67_450531.jpg?width=320",
     "rating": {
       "rate": 4.1,
       "count": 430
@@ -469,6 +446,8 @@
   
 
 ]
+
+
 
 export default defineEventHandler(() =>{
   return goods
