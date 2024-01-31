@@ -63,6 +63,7 @@ function arrowClicked(){
 
 //access the client side
 if (process.client){
+    console.log("process client accessed");
     // localStorage.removeItem('data')
     // localStorage.clear()
    var basket = JSON.parse(localStorage.getItem("data")) || [];
